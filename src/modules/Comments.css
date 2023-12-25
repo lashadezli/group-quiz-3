@@ -1,0 +1,176 @@
+.Main {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  width: 700px;
+  background-color: hsl(228, 33%, 97%);
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.rating {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0;
+  margin-right: 30px;
+}
+
+.rating button {
+  margin: 0;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 2px;
+  border: none;
+  background-color: hsl(223, 19%, 93%);
+  color: hsl(238, 40%, 52%);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.text {
+  width: 100%;
+}
+
+.Starter {
+  display: flex;
+  justify-content: space-between;
+  width: 100% !important;
+}
+
+.Starter-title {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+  align-items: center;
+}
+
+.Starter-title img {
+  width: 42px;
+  height: 42px;
+}
+
+.Person{
+  background-color:hsl(238, 40%, 52%);
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.postedAt {
+  color: hsl(211, 10%, 45%);
+}
+
+.reply {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 0.5rem;
+  cursor: pointer;
+  color: hsl(238, 40%, 52%);
+}
+
+.config {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+}
+
+.delete,
+.edit {
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.5rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+.delete p {
+  color: hsl(358, 79%, 66%);
+}
+
+.edit p {
+  color: hsl(238, 40%, 52%);
+}
+
+.Secondary-half {
+  background-color: hsl(240, 2%, 89%, 0.7);
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.Formal {
+  height: 220px;
+  top: 40%;
+  background-color: white;
+  line-height: 22px;
+  margin: 16px;
+  border-radius: 15px;
+  padding: 24px;
+  width: 95%;
+  color: hsl(211, 10%, 45%);
+  max-width: 375px;
+}
+
+.Formal-title {
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.Formal-buttons {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Formal-button {
+  color: white;
+  padding: 16px 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.Formal-button.do {
+  cursor: pointer;
+  background-color: hsl(358, 79%, 66%);
+}
+
+.Formal-button.undo {
+  cursor: pointer;
+  background-color: hsl(211, 10%, 45%);
+}
+
+.Footer span{
+  margin-right: 5px;
+  color: hsl(238, 40%, 52%);
+}
+
+
+.edit-input {
+  border: 0.5px solid hsl(211, 10%, 45%);
+  background-color: transparent;
+  border-radius: 5px;
+  width: 500px;
+  height: 100px;
+}
+
+.editing-btn {
+  background-color: hsl(238, 40%, 52%);
+  border: none;
+  border-radius: 5px;
+  margin-left: 20px;
+  padding: 10px 20px;
+  color: white;
+}
